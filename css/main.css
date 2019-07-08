@@ -1,0 +1,88 @@
+body{
+    background-color: aliceblue;
+}
+
+body, 
+input{
+    font: 1em sans-serif;
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed red;
+}
+
+/* List */
+
+.list{
+    background-color: white;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing:border-box;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.1)
+}
+
+.list .header{
+    font-family:  cursive;
+    margin: 0 0 10px 0;
+}
+
+/* Items */
+
+.items{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a.done-button:hover{
+    opacity: 1;
+}
+
+.items .item.done{
+    text-decoration: line-through;
+    display: inline;
+}
+
+.items li,
+.item-add .input{
+border:0;
+border-bottom: 1px dashed #ccc;
+padding: 15px 0;
+}
+
+input{
+    width: 100%;;
+}
+
+.input:focus{
+    outline: none;
+}
+
+/* Done button */
+
+.items .done-button{
+    display: inline-block;
+    font-size: .8em;
+    background-color: #d9dfe1;
+    color: #363639;
+    padding: 3px 6px;
+    border:0;
+    opacity: 0.4;
+}
+
+/* Submit button*/
+
+.submit{
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 3px 3px 0 #ddd
+}
+
