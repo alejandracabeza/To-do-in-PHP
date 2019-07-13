@@ -52,7 +52,8 @@
 
             <form class="item-add" action="add.php" method="post">
                 <input type="text" name="name" placeholder="Type a new item here." class="input" auocomplete="off" required>
-                <input type="submit" value="Add" class="submit">
+                <!-- <input type="submit" value="Add" class="submit"> -->
+                <button class="submit">Add</button>
             </form>
         </div>
     </div>

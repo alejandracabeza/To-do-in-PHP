@@ -105,7 +105,8 @@ padding: 15px 0;
 }
 
 input{
-    width: 100%;;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .input:focus{
@@ -127,12 +128,20 @@ input{
 /* Submit button*/
 
 .submit{
-    background-color: #fff;
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    width: 100%;
-    margin-top: 10px;
-
-    box-shadow: 3px 3px 0 #ddd
+    background-color:#3ddb48;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    margin:auto;
+    border-radius: 100%;
+    border:none;
 }
 
+.submit:focus{
+    outline: none;
+}
