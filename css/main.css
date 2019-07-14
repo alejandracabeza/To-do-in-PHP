@@ -106,7 +106,6 @@ padding: 15px 0;
 
 input{
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .input:focus{
@@ -140,8 +139,23 @@ input{
     margin:auto;
     border-radius: 100%;
     border:none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    transform: translateY(60px);
 }
 
-.submit:focus{
-    outline: none;
+.submit:hover {
+    background-color: #17b322;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(50px);
+  }
+
+  .submit:focus{
+    background-color:#128a1a;
 }
+
+ 
+  
